@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+    <script defer src="static/script.js"></script>
+    <script defer src="static/command_handler.js"></script>
+    <title>Pluto Notebook</title>
+</head>
+<body>
+    <div id="nav">
+        <h2>Pluto Notebook</h2>
+    </div>
+    <div id="commands">
+        <button onclick="addCell()">Add cell</button>
+        <button onclick="runCell()" id="run">Run cell</button>
+    </div>
+    <div id="cell-list">
+        <div class="cell" id="1" onclick="selecteCell(this)"> 
+            <h4>[1]</h4>
+            <textarea onkeyup="do_resize(this);"></textarea>
+            <p></p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+#nav{
+    height: 50px;
+    background-color:chocolate;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+
+}
+ #nav h2{
+     margin: 0;
+     color: white;
+     margin: 0 10px;
+ }
+
+ #commands {
+     margin: 10px
+ }
+
+ .cell{
+     padding: 10px 5px;
+     align-items: center;
+     display: flex;
+     flex-flow: row wrap;
+ }
+
+ .cell:hover{
+     background-color: coral;
+ }
+
+ .cell h4{
+    display: inline-block;
+    margin: 0;
+    padding: 0 10px;
+ }
+
+ .cell textarea{
+    width: 90%;
+ }
+
+ .cell p{
+     width: 100%;
+     margin-left: 40px;
+ }
